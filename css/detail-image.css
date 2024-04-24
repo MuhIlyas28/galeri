@@ -1,0 +1,202 @@
+/* Reset CSS */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background: linear-gradient(90deg, rgba(0, 194, 177, 1) 0%, rgba(0, 147, 162, 1) 50%, rgba(0, 94, 145, 1) 100%);
+    color: #fff;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li:last-child {
+    margin-right: 0;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Search */
+.search {
+    background: linear-gradient(90deg, rgba(0, 194, 177, 1) 0%, rgba(0, 147, 162, 1) 50%, rgba(0, 94, 145, 1) 100%);
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.search .container {
+    text-align: left;
+}
+
+.search input[type="text"],
+.search input[type="submit"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.search input[type="text"] {
+    width: 70%;
+}
+
+.search input[type="submit"] {
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+/* Section */
+.section {
+    padding: 40px 0;
+}
+
+/* Box */
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.col-2 {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.col-2 img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.col-2 h3 {
+    color: #333;
+    margin-top: 0;
+}
+
+.col-2 h4 {
+    color: #666;
+    margin-top: 5px;
+}
+
+.col-2 p {
+    color: #444;
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(90deg, rgba(0, 194, 177, 1) 0%, rgba(0, 147, 162, 1) 50%, rgba(0, 94, 145, 1) 100%);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Style for buttons */
+button,
+.submit-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover,
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+/* Style for icons */
+i.fas {
+    margin-right: 5px;
+}
+
+/* Style for comments */
+.comments-container {
+    margin-top: 20px;
+}
+
+.comment {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.comment p {
+    margin: 0;
+}
+
+.comment-date {
+    color: #999;
+    font-size: 12px;
+}
+
+/* Animation for showing and hiding comments */
+.comments-container {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+.comments-container.show {
+    max-height: 500px; /* Adjust as needed */
+}
+
+/* Style for comment form */
+.comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.comment-form .submit-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.comment-form .submit-button:hover {
+    background-color: #0056b3;
+}

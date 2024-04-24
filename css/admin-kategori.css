@@ -1,0 +1,157 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Styles */
+header {
+    background: linear-gradient(90deg, rgba(0, 194, 177, 1) 0%, rgba(0, 147, 162, 1) 50%, rgba(0, 94, 145, 1) 100%);
+    color: #fff;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li:last-child {
+    margin-right: 0;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Section Styles */
+.section {
+    padding: 40px 0;
+}
+
+/* Box Styles */
+.box {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+/* Table Styles */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    padding: 8px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #f2f2f2;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Button Styles */
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    text-decoration: none; /* Tidak menampilkan garis bawah */
+}
+
+.btn.edit {
+    background-color: #ffc107;
+    color: #fff;
+}
+
+.btn.hapus {
+    background-color: #d9534f;
+    color: #fff;
+}
+
+.btn.tambah {
+    background-color: #007bff; /* Warna biru */
+    color: #fff;
+}
+
+.btn.tambah:hover {
+    background-color: #0056b3; /* Warna biru yang lebih gelap saat dihover */
+}
+
+.btn.edit:hover {
+    background-color: #d5aa27; /* Warna kuning saat dihover */
+}
+
+.btn.hapus:hover {
+    background-color: #bc2f2a; /* Warna merah saat dihover */
+}
+
+/* Additional CSS for action buttons */
+.aksi-buttons {
+    display: flex;
+}
+
+.aksi-buttons .btn {
+    margin-right: 5px;
+}
+
+/* Notification Styles */
+.notification {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.notification.error {
+    background-color: #f2dede;
+    color: #a94442;
+}
+
+.notification.success {
+    background-color: #dff0d8;
+    color: #3c763d;
+}

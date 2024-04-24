@@ -1,0 +1,175 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+}
+
+header h1 {
+    float: left;
+    margin: 0;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.search {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.search input[type="text"] {
+    padding: 10px;
+    width: 70%;
+    border: 0;
+    float: left;
+}
+
+.search button {
+    background: #ff6600;
+    color: #fff;
+    border: 0;
+    padding: 10px 20px;
+    float: right;
+}
+
+.section {
+    margin-top: 20px;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-4 {
+    width: 25%;
+    padding: 10px;
+}
+
+.image-container {
+    position: relative;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan */
+    border-radius: 8px; /* Tambahkan border-radius untuk membulatkan sudut */
+    overflow: hidden; /* Hindari gambar melebihi batas kontainer */
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease; /* Tambahkan efek transisi */
+}
+
+.image-container:hover img {
+    transform: scale(1.05); /* Efek perbesaran saat dihover */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.overlay:hover {
+    visibility: visible;
+    opacity: 1;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.admin,
+.date {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+/* Gaya untuk daftar album */
+.albums {
+    margin-bottom: 20px;
+}
+
+.albums h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.albums ul {
+    list-style: none;
+    padding: 0;
+}
+
+.albums ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.albums ul li a {
+    text-decoration: none;
+    color: #333;
+    background-color: #f4f4f4;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.albums ul li a:hover {
+    background-color: #ddd;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer small {
+    font-size: 12px;
+}

@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 800px; /* Menyesuaikan lebar konten agar lebih lebar */
+    margin: 0 auto;
+    padding: 0 20px; /* Memberi ruang padding di sisi kanan dan kiri */
+}
+
+.section {
+    padding: 40px 0;
+}
+
+.form-group {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 500px; /* Menyesuaikan lebar maksimum konten */
+    margin: 15px auto; /* Mengatur margin secara otomatis agar berada di tengah dan memberikan jarak di atas dan bawah */
+}
+
+.form-group h3 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.input-control {
+    width: 100%; /* Mengisi lebar input dengan lebar konten */
+    padding: 14px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1em;
+    background-color: rgba(241, 240, 240, 1);
+    box-sizing: border-box;
+    position: relative; /* Penyesuaian posisi absolut ikon */
+}
+
+.input-control .icon {
+    position: absolute;
+    left: 10px; /* Mengatur posisi ikon agar terlihat lebih baik */
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+}
+
+.btn {
+    width: 100%; /* Mengisi lebar tombol dengan lebar konten */
+    padding: 12px; /* Mengurangi padding agar tombol lebih kecil */
+    border: none;
+    border-radius: 25px; /* Menambahkan border-radius agar tombol lebih bulat */
+    background: linear-gradient(90deg, rgba(0, 194, 177, 1) 0%, rgba(0, 147, 162, 1) 50%, rgba(0, 94, 145, 1) 100%);
+    color: #fff;
+    font-size: 1.2em; /* Mengurangi ukuran font */
+    cursor: pointer;
+    transition: background 0.3s ease;
+    box-sizing: border-box;
+}
+
+.btn:hover {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.205), rgba(255, 255, 255, 0.248)), linear-gradient(90deg, rgba(0, 194, 177, 1) 0%, rgba(0, 147, 162, 1) 50%, rgba(0, 94, 145, 1) 100%);
+}
+
+.footer {
+    text-align: center;
+    margin-bottom: 30px; /* Mengurangi margin-bottom agar footer lebih dekat dengan konten */
+}
+
+.footer small {
+    color: #555;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+}
+
+/* CSS untuk header */
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links ul li {
+    margin-right: 20px;
+}
+
+.nav-links ul li:last-child {
+    margin-right: 0;
+}

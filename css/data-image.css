@@ -1,0 +1,195 @@
+/* Gaya Global */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Gaya Tabel */
+.table th {
+    padding: 15px 10px;
+    text-align: left;
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.table td {
+    padding: 10px;
+}
+
+.table img {
+    width: 100px;
+}
+
+/* Gaya Container */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Gaya Bagian */
+.section {
+    padding: 40px 0;
+}
+
+/* Gaya Header */
+header {
+    background: linear-gradient(90deg, rgba(0, 194, 177, 1) 0%, rgba(0, 147, 162, 1) 50%, rgba(0, 94, 145, 1) 100%);
+    color: #fff;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Gaya Navigasi */
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li:last-child {
+    margin-right: 0;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none; /* Menghapus garis bawah pada tautan */
+}
+
+/* Gaya Navigasi Tambahan */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+/* CSS untuk notifikasi */
+/* CSS untuk notifikasi */
+.notif {
+    position: fixed;
+    top: 140px; /* Mengatur posisi notifikasi di bawah header */
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    z-index: 9999;
+    display: none; /* Sembunyikan notifikasi awalnya */
+}
+
+/* Gaya Box */
+.section .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Gaya Tombol */
+.btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: all 0.3s ease; 
+    outline: none;
+    text-decoration: none;
+}
+
+.btn.tambah {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn.edit {
+    background-color: #ffc107;
+    color: #000;
+    margin-right: 5px;
+    text-decoration: none !important;
+    padding: 10px;
+}
+
+.btn.hapus {
+    background-color: #dc3545;
+    color: #fff;
+    text-decoration: none !important;
+    padding: 10px;
+}
+
+/* Efek Hover untuk Tombol */
+.btn:hover {
+    transform: translateY(-3px);
+}
+
+.btn:active {
+    transform: translateY(1px);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Efek Hover untuk Setiap Tombol */
+.btn.tambah:hover {
+    background-color: #0056b3; /* Warna biru yang lebih gelap saat dihover */
+}
+
+.btn.edit:hover {
+    background-color: #d5aa27; /* Warna kuning saat dihover */
+}
+
+.btn.hapus:hover {
+    background-color: #bc2f2a; /* Warna merah saat dihover */
+}
+
+/* Gaya Footer */
+footer {
+    background: linear-gradient(90deg, rgba(0, 194, 177, 1) 0%, rgba(0, 147, 162, 1) 50%, rgba(0, 94, 145, 1) 100%);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Tambahan CSS untuk tombol aksi */
+.aksi-buttons {
+    display: flex;
+}
+
+.aksi-buttons .btn {
+    margin-right: 5px;
+}
+
